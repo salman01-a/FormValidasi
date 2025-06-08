@@ -1,0 +1,1 @@
+buat belajar js cik 
