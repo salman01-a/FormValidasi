@@ -24,3 +24,11 @@
             alert("Email atau Password salah");
         }
     }
+
+    fetch('http://localhost:8080/persons', {
+        mode: 'no-cors',
+        method: "GET"
+    })
+        .then(res => res.json())
+        .then(res => {
+            console.log(res);});    
