@@ -3,8 +3,8 @@
         let Username =  document.getElementById("Username").value;
         let Password =  document.getElementById("Pass").value;
         let Email = document.getElementById("Email").value;
-        // localStorage.setItem("email", Emailsigin)
-        // localStorage.setItem("pass",passwordsigin)
+                // localStorage.setItem("email", Emailsigin)
+                // localStorage.setItem("pass",passwordsigin)
 
         // alert(`Email = ${Emailsigin} Password = ${passwordsigin}}`);
         // alert("berhasil signin");

@@ -1,0 +1,56 @@
+body{
+    background-image: url('../img/pexels-pixabay-268533.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+
+.center{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* background-color: aqua  ; */
+    /* flex-direction: column;       */
+}
+.border-container{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua;       */
+
+    border-color: black;
+    border-radius: 20px ;
+    backdrop-filter: blur(50px);
+}
+
+form{
+    margin-top: 32px;
+    margin-bottom: 24px;
+    /* background-color: aqua; */
+    border-radius: 5px solid;
+    width:43vh;
+}
+
+#label_login{
+    font-size: 38px;
+    letter-spacing: 10px;
+    font-family: monospace;
+    border-right: 5px solid;
+    width: 70%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+    typing 1.2s steps(9),
+    cursor .4s step-end infinite alternate;
+}
+@keyframes cursor{
+    50%{
+        border-color: transparent;
+    }
+}
+@keyframes typing{
+    from {width: 0;}
+}
