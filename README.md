@@ -1,3 +1,3 @@
 # FormValidasi
 
-### isinya cuman page login dan signin dan menggunakan api sebagai validator
+### isinya cuman page login dan signin dan menggunakan API sebagai validator
