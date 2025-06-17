@@ -1,4 +1,5 @@
 body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-image: url('../img/pexels-pixabay-268533.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -27,6 +28,7 @@ body{
 }
 
 form{
+    height: auto;
     margin-top: 32px;
     margin-bottom: 24px;
     /* background-color: aqua; */
@@ -35,6 +37,16 @@ form{
 }
 
 #label_login{
+    font-size: 38px;
+    letter-spacing: 10px;
+    font-family: monospace;
+    width: 70%;
+    white-space: nowrap;
+    overflow: hidden;
+  
+}
+
+#label_signin{
     font-size: 38px;
     letter-spacing: 10px;
     font-family: monospace;

@@ -1,8 +1,21 @@
 
+var typed = new Typed("#label_login",{
+        strings :  ["Welcome","Login"],
+        typeSpeed : 150,
+        backSpeed: 150,
+        loop : true
+
+})
+
     function signin(){
         let Username =  document.getElementById("Username").value;
-        let Password =  document.getElementById("Pass").value;
+        let Password =document.getElementById("Pass").value;
         let Email = document.getElementById("Email").value;
+         if (Password.length < 6 ){
+            alert("password Harus lebih dari 6");
+            return
+        }
+
                 // localStorage.setItem("email", Emailsigin)
                 // localStorage.setItem("pass",passwordsigin)
 
@@ -41,7 +54,7 @@
     function LogIn(){
         let Username =  document.getElementById("Username").value;
         let password =  document.getElementById("Pass").value;
-        alert(`Email = ${localStorage.getItem("email")} Password = ${localStorage.getItem("pass")}`);
+        // alert(`Email = ${localStorage.getItem("email")} Password = ${localStorage.getItem("pass")}`);
         // if(Email === localStorage.getItem("email") && password === localStorage.getItem("pass")){
         //     alert(`Email = ${Email} Password = ${password}`)
         
