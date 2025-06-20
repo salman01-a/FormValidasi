@@ -7,7 +7,8 @@ var typed = new Typed("#label_login",{
 
 })
 
-    function signin(){
+    function signin(event){
+        event.preventDefault();
         let Username =  document.getElementById("Username").value;
         let Password =document.getElementById("Pass").value;
         let Email = document.getElementById("Email").value;
@@ -51,7 +52,8 @@ var typed = new Typed("#label_login",{
         });
     }
     
-    function LogIn(){
+    function LogIn(event){
+        event.preventDefault();
         let Username =  document.getElementById("Username").value;
         let password =  document.getElementById("Pass").value;
         // alert(`Email = ${localStorage.getItem("email")} Password = ${localStorage.getItem("pass")}`);
