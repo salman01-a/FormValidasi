@@ -5,7 +5,10 @@ var typed = new Typed("#label_login",{
         backSpeed: 150,
         loop : true
 
+
+
 })
+
 
     function signin(event){
         event.preventDefault();
@@ -75,7 +78,15 @@ var typed = new Typed("#label_login",{
         })
         .then(response => {
             if (!response.ok) {
-                alert("Password atau username salah");  
+                // const para = document.createElement("p");
+                // const node = document.createTextNode("Passwrod");
+                // para.appendChild(node);
+                // const element = document.getElementById("div1");
+                // const child = document.getElementById("p2");
+                // element.appendChild(para,child);
+                document.getElementById("Failed").innerHTML = "Password Atau Username Salah";
+
+                // alert("Password atau username salah");      
             throw new Error('Network response was not ok');
             }
             
